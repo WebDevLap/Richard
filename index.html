@@ -1,181 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Richard</title>
+    <title>Egypt Travel</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter:500,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Jost:500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:regular,700" rel="stylesheet" />
+
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="header__container _container">
-                <img src="img/Logo.jpg" alt="" class="header__logo logo">
-                <nav class="header__nav nav">
-                    <ul class="nav__menu">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">About</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Features</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">How to Use</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Download</a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="container__logo logo">
+                    <a href="#">EgyptTour</a>
+                </div>
+                <div class="container__search-wrapper">
+                    <div class="search-wrapper__search">
+                        <input type="text" name="headerSearch" placeholder="Search">
+                    </div>
+                </div>
+                <div class="container__menu">
+                    <div class="menu__icon" id="menuIcon1">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body" id="menuBody1">
+                        <ul class="menu__list">
+                            <li><a href="#" class="menu__link">Home</a></li>
+                            <li><a href="#" class="menu__link">Guides</a></li>
+                            <li><a href="#" class="menu__link">About</a></li>
+                            <li><a href="#" class="menu__link">Inspiration</a></li>
+                            <li><a href="#" class="menu__link">Contact</a></li>
+                            <li><button class="menu__button btn">Sign Up</button></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
         <main class="page">
             <section class="page-1">
-                <div class="page-1__container _container">
-                    <div class="page-1__content-block">
-                        <div class="content-block__title title">Momentum</div>
-                        <div class="content-block__subtitle subtitle">Launch your product — and savor the momentum.</div>
-                        <button class="content-block__btn btn-pink">Get the App</button>
+                <div class="page-1__container _container _container_1360">
+                    <div class="page-1__img">
+                        <img src="img/page-1/image-1.jpg" alt="">
                     </div>
-                    <img src="img/page-1/image-1.jpg" alt="" class="page-1__img">
                 </div>
             </section>
             <section class="page-2">
                 <div class="page-2__container _container">
-                    <div class="page-2__content-block">
-                        <div class="content-block__top-string top-string">Aenean Consectetur Porta</div>
-                        <div class="content-block__title h2-title">Nullam quis risus eget urna mollis ornare vel eu leo.</div>
-                    </div>
-                    <img src="img/page-2/image-1.jpg" alt="" class="page-2__img">
+                    <form action="#" class="page-2__form" name="formPage2">
+                        <div class="form__content">
+                            <ul class="form__list">
+                                <li class="form__item">
+                                    <div class="item__subtitle">Gender</div>
+                                    <select name="mainFormSelect1" id="" class="form__select">
+                                        <option value="Cairo" selected>Cairo</option>
+                                        <option value="San-Diego">San-Diego</option>
+                                    </select>
+                                    
+                                </li>
+                                <li class="form__item">
+                                    <div class="item__subtitle">Age</div>
+                                    <select name="mainFormSelect2" id="" class="form__select">
+                                        <option value="Cairo" selected>Cairo</option>
+                                        <option value="San-Diego">San-Diego</option>
+                                    </select>
+                                </li>
+                                <li class="form__item">
+                                    <div class="item__subtitle">Language</div>
+                                    <select name="mainFormSelect3" id="" class="form__select">
+                                        <option value="Cairo" selected>Cairo</option>
+                                        <option value="San-Diego">San-Diego</option>
+                                    </select>
+                                </li>
+                                <li class="form__item">
+                                    <div class="item__subtitle">Localisation</div>
+                                    <select name="mainFormSelect4" id="" class="form__select">
+                                        <option value="Cairo" selected>Cairo</option>
+                                        <option value="San-Diego">San-Diego</option>
+                                    </select>
+                                </li>
+                            </ul>
+                            <button type="submit" class="form__submit-btn btn">Search</button>
+                        </div>
+                    </form>
                 </div>
             </section>
             <section class="page-3">
                 <div class="page-3__container _container">
-                    <div class="page-3__content-block">
-                        <div class="content-block__top-string top-string">Aenean Consectetur</div>
-                        <div class="content-block__title h2-title">Amet Ipsum</div>
-                        <div class="content-block__subtitle h2-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                    <div class="page-3__header">
+                        <div class="header__title title">Guides for you!</div>
+                        <button class="header__btn btn padding-r-l-40">See All Guides</button>
                     </div>
-                    <img src="img/page-3/image-1.jpg" alt="" class="page-3__img">
-                </div>
-            </section>
-            <section class="page-4">
-                <div class="page-4__container _container">
-                    <img src="img/page-4/image-1.jpg" alt="" class="page-4__img">
-                    <div class="page-4__content-block">
-                        <div class="content-block__top-string top-string">ConsectUltricies</div>
-                        <div class="content-block__title h2-title">Amet Ipsum</div>
-                        <div class="content-block__subtitle h2-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
-                    </div>
-                </div>
-            </section>
-            <section class="page-5">
-                <div class="page-5__container _container">
-                    <div class="page-5__content-block">
-                        <div class="content-block__top-string top-string">Aenean Consectetur Porta</div>
-                        <div class="content-block__title h2-title">Magna Porta Sit Bibendum</div>
-                        <div class="content-block__subtitle h2-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
-                    </div>
-                    <img src="img/page-5/image-1.jpg" alt="" class="page-5__img">
-                </div>
-            </section>
-            <section class="page-6">
-                <div class="page-6__container _container">
-                    <div class="page-6__flexbox flexbox-we-can">
-                        <div class="flexbox__item">
-                            <img src="img/page-6/image-1.svg" alt="" class="item__icon">
-                            <div class="item__title h3-title">Activity Notifications</div>
-                            <div class="item__subtitle h2-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
-                        </div>
-                        <div class="flexbox__item">
-                            <img src="img/page-6/image-2.svg" alt="" class="item__icon">
-                            <div class="item__title h3-title">Custom Timing</div>
-                            <div class="item__subtitle h2-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
-                        </div>
-                        <div class="flexbox__item">
-                            <img src="img/page-6/image-3.svg" alt="" class="item__icon">
-                            <div class="item__title h3-title">Mobile Optimized</div>
-                            <div class="item__subtitle h2-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="page-7">
-                <div class="page-7__container _container">
-                    <div class="page-7__flexbox-statistics flexbox-statistics">
-                        <div class="statistics__item">
-                            <div class="item__number">+12k</div>
-                            <div class="item__description">Nibh Elit Tristique</div>
-                        </div>
-                        <div class="statistics__item">
-                            <div class="item__number">84</div>
-                            <div class="item__description">Aenean Condimentum</div>
-                        </div>
-                        <div class="statistics__item">
-                            <div class="item__number">3,07</div>
-                            <div class="item__description">Quam Inceptos</div>
-                        </div>
-                        <div class="statistics__item">
-                            <div class="item__number">24h</div>
-                            <div class="item__description">Ullamcorper</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="page-8">
-                <div class="page-8__container _container">
-                    <div class="page-8__deshes-row deshes-row">
-                        <div class="deshes-row__dishes-item">
-                            <div class="item__content-block">
-                                <div class="content-block__top-string top-string">Aenean Consectetur Porta</div>
-                                <div class="content-block__title h2-title">Sem Risus Elit Vestibulum</div>
-                                <div class="content-block__subtitle h2-subtitle">Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. <span>Cras mattis consectetur</span> purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.</div>
-                            </div>
-                            <img src="img/page-8/image-1.jpg" alt="" class="item__img">
-                        </div>
-                        <div class="deshes-row__dishes-item dishes-item-reverse">
-                            <div class="item__content-block">
-                                <div class="content-block__top-string top-string">Aenean Consectetur Porta</div>
-                                <div class="content-block__title h2-title">Parturient Tortor</div>
-                                <div class="content-block__subtitle h2-subtitle">Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. <span>Cras mattis consectetur</span> purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.</div>
-                            </div>
-                            <img src="img/page-8/image-2.jpg" alt="" class="item__img">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="page-9">
-                <div class="page-9__container _container">
-                    <div class="page-9__comment comment">
-                        <img src="img/page-9/image-1.png" alt="" class="comment__img">
-                        <div class="comment__text">HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod.ing</div>
-                        <div class="comment__author">Joshua Home<span class="from-company">New York Times</span></div>
-                    </div>
-                </div>
-            </section>
-            <section class="page-10">
-                <div class="page-10__container _container">
-                    <img src="img/page-10/image-1.png" alt="" class="page-10__companies">
-                    <img src="img/page-10/image-2.jpg" alt="" class="page-10__bg-img">
-                </div>
-            </section>
-            <section class="page-11">
-                <div class="page-11__container _container">
-                    <div class="page-11__are-you-ready are-you-ready">
-                        <div class="are-you-ready__content">
-                            <div class="content__title h2-title">Ready to get started?</div>
-                            <div class="content__buttons">
-                                <button class="buttons__item btn-pink">Download Now</button>
-                                <button class="buttons__item btn-transparent">Get in Touch</button>
-                            </div>
-                        </div>
-                        <img src="img/page-11/image-1.png" alt="" class="are-you-ready__img">
+                    <div class="page-3__body">
+                        <ul class="body__card-list">
+                            <li class="body__card-item body__card-item_orange">
+                                <image src="img/page-3/image-1.jpg" class="card-item__img">
+                                <div class="card-item__content">
+                                    <div class="card-item__name">Abayomi Malik</div>
+                                    <div class="card-item__critic">
+                                        <img src="img/page-3/star.svg" alt="">
+                                        <img src="img/page-3/star.svg" alt="">
+                                        <img src="img/page-3/star.svg" alt="">
+                                        <img src="img/page-3/star.svg" alt="">
+                                        <img src="img/page-3/star.svg" alt="">
+                                    </div>
+                                    <div class="card-item__reviews">1000+ revies</div>
+                                </div>
+                            </li>
+                            <li class="body__card-item">
+                                <image src="img/page-3/image-2.jpg" class="card-item__img">
+                                <div class="card-item__content">
+                                    <div class="card-item__name">Berenike Eman</div>
+                                    <div class="card-item__critic">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                    </div>
+                                    <div class="card-item__reviews">1000+ revies</div>
+                                </div>
+                            </li>
+                            <li class="body__card-item">
+                                <image src="img/page-3/image-3.jpg" class="card-item__img">
+                                <div class="card-item__content">
+                                    <div class="card-item__name">Abu Bakar</div>
+                                    <div class="card-item__critic">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                    </div>
+                                    <div class="card-item__reviews">1000+ revies</div>
+                                </div>
+                            </li>
+                            <li class="body__card-item">
+                                <image src="img/page-3/image-4.jpg" class="card-item__img">
+                                <div class="card-item__content">
+                                    <div class="card-item__name">Dendera Heba</div>
+                                    <div class="card-item__critic">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                        <img src="img/page-3/star-orange.svg" alt="">
+                                    </div>
+                                    <div class="card-item__reviews">1000+ revies</div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>
         </main>
     </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script src="js/script.js"></script>
 </body>
 </html>
