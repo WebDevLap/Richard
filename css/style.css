@@ -284,7 +284,7 @@ body.lock {
 }
 .wrapper .page .page-1 .page-1__container .page-1__content-block {
   position: relative;
-  z-index: 5;
+  z-index: 10;
   margin-top: 178px;
 }
 .wrapper .page .page-1 .page-1__container .page-1__content-block .content-block__title {
@@ -304,7 +304,7 @@ body.lock {
   position: absolute;
   right: -115px;
   top: 140px;
-  z-index: 10;
+  z-index: 2;
 }
 @media (max-width: 1020px) {
   .wrapper .page .page-1 .page-1__container .page-1__img {
